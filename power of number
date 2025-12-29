@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int b=2,p=3,res=1;
+    for(int i=1;i<=p;i++)
+        res*=b;
+    printf("Result = %d", res);
+    return 0;
+}
